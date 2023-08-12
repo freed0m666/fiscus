@@ -101,9 +101,9 @@
             'dev_requirement' => false,
         ),
         'doctrine/orm' => array(
-            'pretty_version' => '2.16.0',
-            'version' => '2.16.0.0',
-            'reference' => '495cd06b9a630f9c38a21ceb249ed008edbe8414',
+            'pretty_version' => '2.16.1',
+            'version' => '2.16.1.0',
+            'reference' => '597a63a86ca8c5f9d1ec2dc74fe3d1269d43434a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/orm',
             'aliases' => array(),
@@ -162,6 +162,17 @@
             'provided' => array(
                 0 => '1.0|2.0',
             ),
+        ),
+        'roave/security-advisories' => array(
+            'pretty_version' => 'dev-latest',
+            'version' => 'dev-latest',
+            'reference' => 'eea8bf94d73239ed2975a39ad4d79fbfb2d15eca',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => true,
         ),
         'symfony/cache' => array(
             'pretty_version' => 'v5.4.25',
